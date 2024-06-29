@@ -1,0 +1,463 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**/
+html {
+    font-family: "Poppins", sans-serif;
+    width: 1920px;
+}
+
+.bodyMasterDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url('../assets/img/backgoundcolours.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerMasterDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 140px;
+    width: 100%;
+    background-color: white;
+}
+
+.headerSubDiv1 {
+    opacity: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+}
+
+.headerSubDiv1_1 {
+    position: relative;
+    right: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    height: 100%;
+    width: 500px;
+}
+
+.headerSubDiv1_2 {
+    position: relative;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 350px;
+}
+
+.headerSubDiv1_2 > a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.headerSubDiv2 {
+    opacity: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 90px;
+}
+
+.spanSubDiv1_2 {
+    position: relative;
+    left: 12px;
+}
+
+.spanSubDiv1_1 {
+    font-size: 20px;
+}
+
+.headerSubDiv2_1 {
+    position: relative;
+    height: 40px;
+    width: 80px;
+}
+
+.imagenLogo1 {
+    position: relative;
+    right: 13px;
+    width: 100%;
+    height: 100%;
+}
+
+.spanSubDiv2_2_1 {
+    color: gray;
+}
+
+.headerSubDiv2_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 20px;
+    background-color: #F3F3F3;
+    height: 40px;
+    width: 1080px;
+}
+
+.headerSubDiv2_2_1 {
+    position: relative;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 170px;
+}
+
+.imagenLupa {
+    height: 15px;
+}
+
+.headerSubDiv2_2_2 {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 130px;
+    background-color: black;
+    color: white;
+}
+
+.headerSubDiv2_3 {
+    position: relative;
+    left: 38px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    height: 50px;
+    width: 120px;
+}
+
+.headerSubDiv2_4 {
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+}
+
+.mainMasterDiv {
+    position: relative;
+    bottom: 130px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 1900px;
+    width: 700px;
+}
+
+.tituloMainMasterDiv {
+    position: relative;
+    bottom: 20px;
+    font-size: 90px;
+    color: white;
+}
+
+.parrafo1MainMasterDiv {
+    position: relative;
+    top: 40px;
+    line-height: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 17px;
+    color: white;
+}
+
+.subtituloMainMasterDiv {
+    position: relative;
+    top: 80px;
+    font-size: 50px;
+    color: white;
+}
+
+.parrafo2MainMasterDiv {
+    position: relative;
+    top: 120px;
+    line-height: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 17px;
+    color: white; 
+}
+
+.contenedorBotonesMainMasterDiv {
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 500px;
+}
+
+.boton1MainMasterDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 187, 0);
+    border-radius: 30px 30px 30px 30px;
+    height: 50px;
+    width: 200px;
+    box-shadow: 1px -1px 44px -3px rgba(0,0,0,0.75);
+}
+
+.boton2MainMasterDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    background-color: rgb(206, 63, 63);
+    border-radius: 30px 30px 30px 30px;
+    height: 50px;
+    width: 200px;
+}
+
+.parrafoBoton1 {
+    font-weight: bold;
+}
+
+.parrafoBoton2 {
+    color: white;
+    font-weight: bold;
+}
+
+.mainSecondaryDiv {
+    position: relative;
+    top: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 900px;
+    background-color: white;
+}
+
+.mainTerciaryDiv {
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 180px;
+    width: 520px;
+    height: 500px;
+}
+
+.imagenLogo2 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.subtituloMainSecondaryDiv {
+    font-size: 40px;
+    color: black
+}
+
+.parrafoMainTerciaryDiv {
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footerMasterDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1740px;
+    background-color: white;
+    border-top: 1px solid #ccc;
+    width: 1920px;
+    height: 300px;
+    
+}
+
+.footerSubDiv1 {
+    opacity: 80%;
+    position: relative;
+    left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 200px;
+    width: 150px;
+}
+
+.footerSubDiv2 {
+    opacity: 80%;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 160px;
+    width: 150px;  
+}
+
+.footerSubDiv3 {
+    opacity: 80%;
+    position: relative;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 200px;
+    width: 150px;
+}
+
+.footerLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.footerTitulo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footerSubDiv4 {
+    opacity: 80%;
+    position: absolute;
+    right: 1700px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    width: 65px;
+}
+
+.imagenLogoFooter1 {
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+    height: 50%;
+}
+
+.imagenLogoFooter2 {
+    position: relative;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.flotante {
+    font-size: 90%;
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    background-color: red;
+    box-shadow: 1px -1px 44px -3px rgba(0,0,0,0.75);
+    z-index: 999;
+}
+
+.flotante:hover {
+    font-size: 180%;
+    height: 100px;
+    width: 100px;
+}
+
